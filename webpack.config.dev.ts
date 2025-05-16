@@ -1,7 +1,7 @@
 import { merge } from 'webpack-merge';
 import  config  from './webpack.common';
 import { Configuration } from 'webpack';
-import * as webpackDevServer from 'webpack-dev-server';
+import * as devServer from 'webpack-dev-server';
 
 const devConfig: Configuration = merge(config, {
   mode: 'development',

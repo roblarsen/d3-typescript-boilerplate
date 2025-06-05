@@ -28,4 +28,4 @@ node_modules
 .tmp
 dist.tgz
 
-.parcel-cache
+dist

@@ -1,4 +1,4 @@
-# D3./TypeScript Boilerplate
+# D3/TypeScript Boilerplate
 
 ## Getting Started 
 

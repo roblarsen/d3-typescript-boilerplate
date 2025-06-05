@@ -2,6 +2,8 @@
 
 ## Getting Started 
 
+v1.0.0-alpha release
+
 ``` 
 npm install
 npm run start

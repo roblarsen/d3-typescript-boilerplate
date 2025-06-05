@@ -1,6 +1,6 @@
 {
   "name": "d3-ts-boilerplate",
-  "version": "0.0.1",
+  "version": "v1.0.0-alpha",
   "description": "A boilerplate for D3.js and TypeScript projects",
   "main": "index.js",
   "private": false,

@@ -105,5 +105,5 @@ svg.append('g')
 ## 5. Performance and Clean Code Preferences
 
 * **Chaining Context:** Keep chains legible. Align dots vertically. Break long chain sequences into separate variable assignments if the target group context or nested element hierarchy changes.
-* **Encapsulation:** Build charts as modular functions or clean classes that accept a container DOM element, data payload, and an configuration options object. Avoid writing global styling or layout side effects.
+* **Encapsulation:** Build charts as modular functions or clean classes that accept a container DOM element, data payload, and a configuration options object. Avoid writing global styling or layout side effects.
 * **Memory Management:** Ensure any resize, re-render, or update cycles cleanly clear older timers, intervals, tooltips, or transition schedules before rebinding new elements.

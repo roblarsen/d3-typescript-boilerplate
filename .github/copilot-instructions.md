@@ -21,7 +21,7 @@ You are an expert software engineer specializing in modern D3.js (v7) and strict
 D3 selections require explicit type arguments. Do not allow implicit `any` fallback typing.
 
 ### Selection Signature Blueprint
-Every D3 selection variable or component target must satisfy the four-type parameter requirement listed below in order:
+When explicitly annotating a `d3.Selection<...>` type, provide all four generic parameters in this order (parent generics are typically inferred for `select`/`selectAll` calls):
 1. **GElement**: The current DOM element type being selected (e.g., `SVGSVGElement`, `SVGGElement`, `SVGPathElement`).
 2. **Datum**: The type of the bound data item (e.g., `MyDataInterface`). Use `unknown` if unassigned, never bare `any`.
 3. **PElement**: The parent DOM element type (typically `HTMLElement` or `SVGSVGElement`).
